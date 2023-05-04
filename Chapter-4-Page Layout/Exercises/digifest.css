@@ -1,0 +1,75 @@
+body {font-family: "Arial";}
+
+.heading {
+    text-align: center;
+  background-color: rgb(24,0,63);
+  padding: 1px;
+  color: white;
+  font-family: "Tahoma";
+  font-size: 100%;
+  
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24,0,63);
+    padding: 3px;
+    font-size: 130%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    margin: 10px;
+}
+
+.copyright {
+    background-color: #8c15e9;
+    padding: 8px;
+    color: white;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.text {
+   word-wrap: break-word;
+   width: 800px
+}
+
+.Digimage {
+    width: 50px;
+    height: 20px;
+}
+
+.twopics {justify-content: center;
+display: flex;
+margin:5px;
+}
+
+.twopics img {
+    margin: 5px;
+    width: 100%;
+    max-width: 50%;
+  }
+
+.RightBox {
+    background-color:  #172d67;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: white;
+  margin: 20px;
+  overflow: hidden;
+
+}
+
+.Parentcontainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+

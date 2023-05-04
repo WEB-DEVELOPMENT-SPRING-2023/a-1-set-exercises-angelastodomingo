@@ -1,0 +1,29 @@
+body {background-color: rgb(255, 231, 95);
+color:rgb(0, 0, 0);
+}
+
+h1 {text-align:center;
+  padding: 5px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 300%;
+}
+
+figcaption {
+    color:rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.pictures {display:flex;
+    justify-content: center;
+
+  }
+
+
+
+  .pictures figure {
+    max-width: 200%;
+    display: inline-block;
+    margin: 15px;
+  }
+
+        

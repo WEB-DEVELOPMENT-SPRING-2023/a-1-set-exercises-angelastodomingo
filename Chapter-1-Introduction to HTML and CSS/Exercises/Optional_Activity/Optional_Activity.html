@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick reference guide</title>
+    <link rel="stylesheet" href="Optional_Activity.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+<style>
+    h1 {
+      font-family: "Caveat", sans-serif;
+    }
+</style>
+</head>
+<body>
+
+<h1>HTML and CSS quick reference guide </h1>
+
+    <table border="1" width="100%">
+        <caption>Commonly used HTML tags:</caption>
+        <thead>
+        <tr align="center">
+          <th>HTML tags</th>
+          <th>Meaning</th>
+          <th>Examples</th>
+        </tr>
+        </thead>
+        <tr>
+          <td>&lt;!DOCTYPE&gt; declaration</td>
+          <td>This specifies the version of HTML that the document is using, and must be included at the beginning of every HTML document.</td>
+          <td>        <code>
+            &lt;!DOCTYPE html&gt;
+
+        </code></td>
+        </tr>
+        <tr>
+          <td>The &lt;head&gt; element</td>
+          <td>This contains metadata about the document, including the document title, links to CSS stylesheets, and other information that is not displayed directly on the page.</td>
+          <td><code>&lt;head&gt;</code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;title&gt; element</td>
+            <td>This specifies the title of the document, which is displayed in the browser's title bar.</td>
+            <td><code>&lt;title&gt;My Website&lt;/title&gt;</code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;body&gt; element</td>
+            <td>This contains the visible content of the document, including text, images, and other elements that are displayed in the browser window.</td>
+            <td><code>&lt;body&gt;</code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;p&gt; tag</td>
+            <td>The &lt;p&gt; tag in HTML is used to define a paragraph of text.</td>
+            <td><code>&lt;p&gt;This is some text.&lt;p&gt;</code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;a&gt; tag</td>
+            <td>This tag defines a hyperlink element, and is used to create a clickable link to another webpage or resource.</td>
+            <td><code>
+                &lt;a href="https://www.youtube.com"&gt;Visit YouTube.com&lt;/a&gt;</code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;img&gt; tag</td>
+            <td>This tag defines an image element, and is used to display images on a webpage.</td>
+            <td><code>&lt;img src="image.jpg" alt="An image"&gt;</code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;div&gt; tag</td>
+            <td>This tag defines a generic container element, and is often used to group other elements together for styling or layout purposes.</td>
+            <td><pre><code>
+                &lt;div class="container"&gt;
+                &lt;h1>My Heading&lt;/h1&gt;
+                &lt;p>Some text goes here.&lt;/p&gt;
+                &lt;/div&gt;</pre></code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;ul&gt; and &lt;li&gt; tags </td>
+            <td> These tags are used to create unordered lists, which are lists with bullet points or other symbols to indicate each item in the list.</td>
+            <td><pre><code> 
+                &lt;ul&gt;
+                &lt;li>Banana &lt;li&gt;
+                &lt;li>Grapes &lt;/li&gt;
+                &lt;li>Orange &lt;/li&gt;
+                &lt;/ul&gt;</pre></code></td>
+        </tr>
+
+        <tr>
+            <td>The &lt;ol&gt; and &lt;li&gt; tags </td>
+            <td> These tags are used to create ordered lists, which are lists with numbers or other sequential markers to indicate each item in the list. </td>
+            <td><pre><code>
+                &lt;ol&gt;
+                &lt;li>Do this first.&lt;/li&gt;
+                &lt;li>Then do this.&lt;/li&gt;
+                &lt;li>Now do this last.&lt;/li&gt;
+                &lt;/ol&gt;
+            </pre></code></td>
+        </tr>
+      </table>
+
+      <br> 
+      <br>
+      <br>
+      
+      <table border="1" width="100%">
+        <caption>Commonly used CSS elements</caption>
+        <thead>
+        <tr align="center">
+            <th>CSS elements</th>
+            <th>Meaning</th>
+            <th>Examples</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>The 'color' property</td>
+            <td>This property is used to set the text color of an element. It can be set to a named color or a hexadecimal color value.</td>
+            <td><code>
+                h1 {
+                color: red;
+                 }</code></td>
+        </tr>
+
+        <tr>
+            <td>The 'background-color' property</td>
+            <td>This property is used to set the background color of an element. It can also be set to a named color or a hexadecimal color value.</td>
+            <td><code>body {
+                background-color: #f2f2f2;
+              }</code></td>
+        </tr>
+
+        <tr>
+            <td>The 'font-size' property</td>
+            <td>This property is used to set the size of the text within an element.</td>
+            <td><code>h2 {
+                font-size: 24px;
+              }</code></td>
+        </tr>
+
+
+        <tr>
+            <td>The 'font-family' properly</td>
+            <td> This property is used to set the font of the text within an element. </td>
+            <td><code>body {
+                font-family: Arial, sans-serif;
+              }</code></td>
+        </tr>
+
+
+        <tr>
+            <td>The 'padding' property</td>
+            <td> This property is used to set the padding of an element, which is the space between the element's content and its border. </td>
+            <td><code>div {
+                padding: 10px;
+              }
+              </code></td>
+        </tr>
+
+
+        <tr>
+            <td>The 'margin' property</td>
+            <td>This property is used to set the margin of an element, which is the space between the element's border and neighboring elements.</td>
+            <td><code>div {
+                margin: 10px;
+              }</code></td>
+        </tr>
+
+
+        <tr>
+            <td>The 'border' property</td>
+            <td> This property is used to set the border of an element. It can be set to a specific width, style, and color.</td>
+            <td><code>div {
+                border: 1px solid black;
+              }</code></td>
+        </tr>
+
+
+        <tr>
+            <td>The 'text-align' property</td>
+            <td>This property is used to set the horizontal alignment of text within an element. </td>
+            <td><code>h1 {
+                text-align: center;
+              }
+              </code></td>
+        </tr>
+
+
+</body>
+</html>

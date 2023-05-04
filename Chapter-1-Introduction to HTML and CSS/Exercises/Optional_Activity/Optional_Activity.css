@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    border: none;
+    
+
+}
+
+body {
+background-color:rgb(255, 246, 221)
+
+}
+thead {
+    background-color: rgb(177, 39, 73);
+    color:white;
+}
+
+td {
+padding:10px;
+border: none;
+
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    border: none;
+  }
+
+tbody tr:hover {
+    background-color: #cacaca;
+  }
+
+tbody {
+  background-color:white
+
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7e7e7;
+  }
+
+
+h1 {text-align: center;
+    font-family: 'Caveat', sams-serif;
+    font-size: 100px;
+}
+
